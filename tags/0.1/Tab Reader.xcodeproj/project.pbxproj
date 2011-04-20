@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A702F4281349C45A004411ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A702F4271349C45A004411ED /* Default@2x.png */; };
+		A707B0181341A36600A54D43 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = A707B0161341A36600A54D43 /* down.png */; };
+		A707B0191341A36600A54D43 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = A707B0171341A36600A54D43 /* up.png */; };
+		A713D59A134089DE006F448D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A713D599134089DE006F448D /* MediaPlayer.framework */; };
+		A73E1D5C1342E73D00031807 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = A73E1D5A1342E73D00031807 /* off.png */; };
+		A73E1D5D1342E73D00031807 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = A73E1D5B1342E73D00031807 /* on.png */; };
+		A749832D1349977C00B9F303 /* alphaTab.min.css in Resources */ = {isa = PBXBuildFile; fileRef = A74983271349977C00B9F303 /* alphaTab.min.css */; };
+		A749832E1349977C00B9F303 /* alphaTab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = A74983281349977C00B9F303 /* alphaTab.min.js */; };
+		A749832F1349977C00B9F303 /* file.html in Resources */ = {isa = PBXBuildFile; fileRef = A74983291349977C00B9F303 /* file.html */; };
+		A74983301349977C00B9F303 /* jquery.alphaTab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = A749832A1349977C00B9F303 /* jquery.alphaTab.min.js */; };
+		A74983311349977C00B9F303 /* jquery.alphaTab.player.min.js in Resources */ = {isa = PBXBuildFile; fileRef = A749832B1349977C00B9F303 /* jquery.alphaTab.player.min.js */; };
+		A74983321349977C00B9F303 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = A749832C1349977C00B9F303 /* jquery.min.js */; };
+		A758B1C91349B75000DF9ABD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A758B1C61349B75000DF9ABD /* Icon-72.png */; };
+		A758B1CA1349B75000DF9ABD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A758B1C71349B75000DF9ABD /* Icon.png */; };
+		A758B1CB1349B75000DF9ABD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A758B1C81349B75000DF9ABD /* Icon@2x.png */; };
+		A7755512133AFC300088BF1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7755511133AFC300088BF1E /* UIKit.framework */; };
+		A7755514133AFC300088BF1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7755513133AFC300088BF1E /* Foundation.framework */; };
+		A7755516133AFC300088BF1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7755515133AFC300088BF1E /* CoreGraphics.framework */; };
+		A7755518133AFC300088BF1E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7755517133AFC300088BF1E /* CoreData.framework */; };
+		A775551E133AFC300088BF1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A775551C133AFC300088BF1E /* InfoPlist.strings */; };
+		A7755521133AFC300088BF1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7755520133AFC300088BF1E /* main.m */; };
+		A7755524133AFC300088BF1E /* Tab_ReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7755523133AFC300088BF1E /* Tab_ReaderAppDelegate.m */; };
+		A7755527133AFC300088BF1E /* Tab_Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7755525133AFC300088BF1E /* Tab_Reader.xcdatamodeld */; };
+		A775552A133AFC300088BF1E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7755528133AFC300088BF1E /* MainWindow.xib */; };
+		A775552D133AFC300088BF1E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A775552C133AFC300088BF1E /* RootViewController.m */; };
+		A7755530133AFC300088BF1E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A775552E133AFC300088BF1E /* RootViewController.xib */; };
+		A7755539133AFC380088BF1E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7755537133AFC380088BF1E /* MainWindow-iPad.xib */; };
+		A775553D133AFC810088BF1E /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A775553B133AFC810088BF1E /* TabViewController.m */; };
+		A775553E133AFC810088BF1E /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A775553C133AFC810088BF1E /* TabViewController.xib */; };
+		A77ABE1C1349BE0100041E0C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A77ABE181349BE0100041E0C /* Default.png */; };
+		A77ABE1E1349BE0100041E0C /* MyiPadImage-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A77ABE1A1349BE0100041E0C /* MyiPadImage-Landscape.png */; };
+		A77ABE1F1349BE0100041E0C /* MyiPadImage-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = A77ABE1B1349BE0100041E0C /* MyiPadImage-Portrait.png */; };
+		A7A9918413430F3500506CD9 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9918213430F3500506CD9 /* SearchViewController.m */; };
+		A7A9918513430F3500506CD9 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A9918313430F3500506CD9 /* SearchViewController.xib */; };
+		A7B3238D13417C7C00192B74 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B3238A13417C7C00192B74 /* pause.png */; };
+		A7B3238E13417C7C00192B74 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B3238B13417C7C00192B74 /* play.png */; };
+		A7B3238F13417C7C00192B74 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B3238C13417C7C00192B74 /* stop.png */; };
+		A7C6DAA5133B2545001943B6 /* Document-Tab-Reader-64.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C6DAA4133B2545001943B6 /* Document-Tab-Reader-64.png */; };
+		A7C6DAA8133B254C001943B6 /* Document-Tab-Reader-320.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C6DAA7133B254C001943B6 /* Document-Tab-Reader-320.png */; };
+		A7E8416E13441A79000CE2DC /* TrackViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E8416C13441A79000CE2DC /* TrackViewController2.m */; };
+		A7E8416F13441A79000CE2DC /* TrackViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E8416D13441A79000CE2DC /* TrackViewController2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A702F4271349C45A004411ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A707B0161341A36600A54D43 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		A707B0171341A36600A54D43 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		A713D599134089DE006F448D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A73E1D5A1342E73D00031807 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		A73E1D5B1342E73D00031807 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		A74983271349977C00B9F303 /* alphaTab.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = alphaTab.min.css; path = alphatab/alphaTab.min.css; sourceTree = "<group>"; };
+		A74983281349977C00B9F303 /* alphaTab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = alphaTab.min.js; path = alphatab/alphaTab.min.js; sourceTree = "<group>"; };
+		A74983291349977C00B9F303 /* file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = file.html; path = alphatab/file.html; sourceTree = "<group>"; };
+		A749832A1349977C00B9F303 /* jquery.alphaTab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.alphaTab.min.js; path = alphatab/jquery.alphaTab.min.js; sourceTree = "<group>"; };
+		A749832B1349977C00B9F303 /* jquery.alphaTab.player.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.alphaTab.player.min.js; path = alphatab/jquery.alphaTab.player.min.js; sourceTree = "<group>"; };
+		A749832C1349977C00B9F303 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = alphatab/jquery.min.js; sourceTree = "<group>"; };
+		A758B1C61349B75000DF9ABD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A758B1C71349B75000DF9ABD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A758B1C81349B75000DF9ABD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A775550D133AFC300088BF1E /* Tab Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7755511133AFC300088BF1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7755513133AFC300088BF1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7755515133AFC300088BF1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7755517133AFC300088BF1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A775551B133AFC300088BF1E /* Tab Reader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tab Reader-Info.plist"; sourceTree = "<group>"; };
+		A775551D133AFC300088BF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A775551F133AFC300088BF1E /* Tab Reader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tab Reader-Prefix.pch"; sourceTree = "<group>"; };
+		A7755520133AFC300088BF1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7755522133AFC300088BF1E /* Tab_ReaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tab_ReaderAppDelegate.h; sourceTree = "<group>"; };
+		A7755523133AFC300088BF1E /* Tab_ReaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tab_ReaderAppDelegate.m; sourceTree = "<group>"; };
+		A7755526133AFC300088BF1E /* Tab_Reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tab_Reader.xcdatamodel; sourceTree = "<group>"; };
+		A7755529133AFC300088BF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A775552B133AFC300088BF1E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A775552C133AFC300088BF1E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A775552F133AFC300088BF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		A7755538133AFC380088BF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		A775553A133AFC810088BF1E /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		A775553B133AFC810088BF1E /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		A775553C133AFC810088BF1E /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		A77ABE181349BE0100041E0C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A77ABE1A1349BE0100041E0C /* MyiPadImage-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyiPadImage-Landscape.png"; sourceTree = "<group>"; };
+		A77ABE1B1349BE0100041E0C /* MyiPadImage-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyiPadImage-Portrait.png"; sourceTree = "<group>"; };
+		A7A9918113430F3500506CD9 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A7A9918213430F3500506CD9 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		A7A9918313430F3500506CD9 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		A7B3238A13417C7C00192B74 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		A7B3238B13417C7C00192B74 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		A7B3238C13417C7C00192B74 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		A7C6DAA4133B2545001943B6 /* Document-Tab-Reader-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Document-Tab-Reader-64.png"; sourceTree = "<group>"; };
+		A7C6DAA7133B254C001943B6 /* Document-Tab-Reader-320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Document-Tab-Reader-320.png"; sourceTree = "<group>"; };
+		A7E8416B13441A79000CE2DC /* TrackViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController2.h; sourceTree = "<group>"; };
+		A7E8416C13441A79000CE2DC /* TrackViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController2.m; sourceTree = "<group>"; };
+		A7E8416D13441A79000CE2DC /* TrackViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackViewController2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A775550A133AFC300088BF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7755512133AFC300088BF1E /* UIKit.framework in Frameworks */,
+				A7755514133AFC300088BF1E /* Foundation.framework in Frameworks */,
+				A7755516133AFC300088BF1E /* CoreGraphics.framework in Frameworks */,
+				A7755518133AFC300088BF1E /* CoreData.framework in Frameworks */,
+				A713D59A134089DE006F448D /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7755502133AFC300088BF1E = {
+			isa = PBXGroup;
+			children = (
+				A7755519133AFC300088BF1E /* Tab Reader */,
+				A7755510133AFC300088BF1E /* Frameworks */,
+				A775550E133AFC300088BF1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A775550E133AFC300088BF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A775550D133AFC300088BF1E /* Tab Reader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7755510133AFC300088BF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7755511133AFC300088BF1E /* UIKit.framework */,
+				A7755513133AFC300088BF1E /* Foundation.framework */,
+				A7755515133AFC300088BF1E /* CoreGraphics.framework */,
+				A7755517133AFC300088BF1E /* CoreData.framework */,
+				A713D599134089DE006F448D /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7755519133AFC300088BF1E /* Tab Reader */ = {
+			isa = PBXGroup;
+			children = (
+				A775553F133B05FB0088BF1E /* alphatab */,
+				A7755536133AFC370088BF1E /* iPad */,
+				A7B323B81341843500192B74 /* Resources */,
+				A775551A133AFC300088BF1E /* Supporting Files */,
+				A7755522133AFC300088BF1E /* Tab_ReaderAppDelegate.h */,
+				A7755523133AFC300088BF1E /* Tab_ReaderAppDelegate.m */,
+				A7755528133AFC300088BF1E /* MainWindow.xib */,
+				A775552B133AFC300088BF1E /* RootViewController.h */,
+				A775552C133AFC300088BF1E /* RootViewController.m */,
+				A775552E133AFC300088BF1E /* RootViewController.xib */,
+				A7755525133AFC300088BF1E /* Tab_Reader.xcdatamodeld */,
+				A775553A133AFC810088BF1E /* TabViewController.h */,
+				A775553B133AFC810088BF1E /* TabViewController.m */,
+				A775553C133AFC810088BF1E /* TabViewController.xib */,
+				A7A9918113430F3500506CD9 /* SearchViewController.h */,
+				A7A9918213430F3500506CD9 /* SearchViewController.m */,
+				A7A9918313430F3500506CD9 /* SearchViewController.xib */,
+				A7E8416B13441A79000CE2DC /* TrackViewController2.h */,
+				A7E8416C13441A79000CE2DC /* TrackViewController2.m */,
+				A7E8416D13441A79000CE2DC /* TrackViewController2.xib */,
+			);
+			path = "Tab Reader";
+			sourceTree = "<group>";
+		};
+		A775551A133AFC300088BF1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A775551B133AFC300088BF1E /* Tab Reader-Info.plist */,
+				A775551C133AFC300088BF1E /* InfoPlist.strings */,
+				A775551F133AFC300088BF1E /* Tab Reader-Prefix.pch */,
+				A7755520133AFC300088BF1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7755536133AFC370088BF1E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A7755537133AFC380088BF1E /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		A775553F133B05FB0088BF1E /* alphatab */ = {
+			isa = PBXGroup;
+			children = (
+				A74983271349977C00B9F303 /* alphaTab.min.css */,
+				A74983281349977C00B9F303 /* alphaTab.min.js */,
+				A74983291349977C00B9F303 /* file.html */,
+				A749832A1349977C00B9F303 /* jquery.alphaTab.min.js */,
+				A749832B1349977C00B9F303 /* jquery.alphaTab.player.min.js */,
+				A749832C1349977C00B9F303 /* jquery.min.js */,
+			);
+			name = alphatab;
+			sourceTree = "<group>";
+		};
+		A7B323B81341843500192B74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A702F4271349C45A004411ED /* Default@2x.png */,
+				A77ABE181349BE0100041E0C /* Default.png */,
+				A77ABE1A1349BE0100041E0C /* MyiPadImage-Landscape.png */,
+				A77ABE1B1349BE0100041E0C /* MyiPadImage-Portrait.png */,
+				A758B1C61349B75000DF9ABD /* Icon-72.png */,
+				A758B1C71349B75000DF9ABD /* Icon.png */,
+				A758B1C81349B75000DF9ABD /* Icon@2x.png */,
+				A73E1D5A1342E73D00031807 /* off.png */,
+				A73E1D5B1342E73D00031807 /* on.png */,
+				A707B0161341A36600A54D43 /* down.png */,
+				A707B0171341A36600A54D43 /* up.png */,
+				A7C6DAA7133B254C001943B6 /* Document-Tab-Reader-320.png */,
+				A7C6DAA4133B2545001943B6 /* Document-Tab-Reader-64.png */,
+				A7B3238A13417C7C00192B74 /* pause.png */,
+				A7B3238B13417C7C00192B74 /* play.png */,
+				A7B3238C13417C7C00192B74 /* stop.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A775550C133AFC300088BF1E /* Tab Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7755533133AFC300088BF1E /* Build configuration list for PBXNativeTarget "Tab Reader" */;
+			buildPhases = (
+				A7755509133AFC300088BF1E /* Sources */,
+				A775550A133AFC300088BF1E /* Frameworks */,
+				A775550B133AFC300088BF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tab Reader";
+			productName = "Tab Reader";
+			productReference = A775550D133AFC300088BF1E /* Tab Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7755504133AFC300088BF1E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A7755507133AFC300088BF1E /* Build configuration list for PBXProject "Tab Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7755502133AFC300088BF1E;
+			productRefGroup = A775550E133AFC300088BF1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A775550C133AFC300088BF1E /* Tab Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A775550B133AFC300088BF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A749832E1349977C00B9F303 /* alphaTab.min.js in Resources */,
+				A74983301349977C00B9F303 /* jquery.alphaTab.min.js in Resources */,
+				A74983311349977C00B9F303 /* jquery.alphaTab.player.min.js in Resources */,
+				A74983321349977C00B9F303 /* jquery.min.js in Resources */,
+				A775551E133AFC300088BF1E /* InfoPlist.strings in Resources */,
+				A775552A133AFC300088BF1E /* MainWindow.xib in Resources */,
+				A7755530133AFC300088BF1E /* RootViewController.xib in Resources */,
+				A7755539133AFC380088BF1E /* MainWindow-iPad.xib in Resources */,
+				A775553E133AFC810088BF1E /* TabViewController.xib in Resources */,
+				A7C6DAA5133B2545001943B6 /* Document-Tab-Reader-64.png in Resources */,
+				A7C6DAA8133B254C001943B6 /* Document-Tab-Reader-320.png in Resources */,
+				A7B3238D13417C7C00192B74 /* pause.png in Resources */,
+				A7B3238E13417C7C00192B74 /* play.png in Resources */,
+				A7B3238F13417C7C00192B74 /* stop.png in Resources */,
+				A707B0181341A36600A54D43 /* down.png in Resources */,
+				A707B0191341A36600A54D43 /* up.png in Resources */,
+				A73E1D5C1342E73D00031807 /* off.png in Resources */,
+				A73E1D5D1342E73D00031807 /* on.png in Resources */,
+				A7A9918513430F3500506CD9 /* SearchViewController.xib in Resources */,
+				A7E8416F13441A79000CE2DC /* TrackViewController2.xib in Resources */,
+				A749832D1349977C00B9F303 /* alphaTab.min.css in Resources */,
+				A749832F1349977C00B9F303 /* file.html in Resources */,
+				A758B1C91349B75000DF9ABD /* Icon-72.png in Resources */,
+				A758B1CA1349B75000DF9ABD /* Icon.png in Resources */,
+				A758B1CB1349B75000DF9ABD /* Icon@2x.png in Resources */,
+				A77ABE1C1349BE0100041E0C /* Default.png in Resources */,
+				A77ABE1E1349BE0100041E0C /* MyiPadImage-Landscape.png in Resources */,
+				A77ABE1F1349BE0100041E0C /* MyiPadImage-Portrait.png in Resources */,
+				A702F4281349C45A004411ED /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7755509133AFC300088BF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7755521133AFC300088BF1E /* main.m in Sources */,
+				A7755524133AFC300088BF1E /* Tab_ReaderAppDelegate.m in Sources */,
+				A7755527133AFC300088BF1E /* Tab_Reader.xcdatamodeld in Sources */,
+				A775552D133AFC300088BF1E /* RootViewController.m in Sources */,
+				A775553D133AFC810088BF1E /* TabViewController.m in Sources */,
+				A7A9918413430F3500506CD9 /* SearchViewController.m in Sources */,
+				A7E8416E13441A79000CE2DC /* TrackViewController2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A775551C133AFC300088BF1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A775551D133AFC300088BF1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7755528133AFC300088BF1E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7755529133AFC300088BF1E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A775552E133AFC300088BF1E /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A775552F133AFC300088BF1E /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		A7755537133AFC380088BF1E /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7755538133AFC380088BF1E /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7755531133AFC300088BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7755532133AFC300088BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A7755534133AFC300088BF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tab Reader/Tab Reader-Prefix.pch";
+				INFOPLIST_FILE = "Tab Reader/Tab Reader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7755535133AFC300088BF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tab Reader/Tab Reader-Prefix.pch";
+				INFOPLIST_FILE = "Tab Reader/Tab Reader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7755507133AFC300088BF1E /* Build configuration list for PBXProject "Tab Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7755531133AFC300088BF1E /* Debug */,
+				A7755532133AFC300088BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7755533133AFC300088BF1E /* Build configuration list for PBXNativeTarget "Tab Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7755534133AFC300088BF1E /* Debug */,
+				A7755535133AFC300088BF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7755525133AFC300088BF1E /* Tab_Reader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7755526133AFC300088BF1E /* Tab_Reader.xcdatamodel */,
+			);
+			currentVersion = A7755526133AFC300088BF1E /* Tab_Reader.xcdatamodel */;
+			path = Tab_Reader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7755504133AFC300088BF1E /* Project object */;
+}
